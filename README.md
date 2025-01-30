@@ -1,5 +1,7 @@
 # Description of Custom Internal Functions
 
+Excerpt of the [µBench repository](https://github.com/mSvcBench/muBench/tree/main/CustomFunctions)
+
 ## Colosseum
 
 Function that returns a simple asci art of Colosseum
