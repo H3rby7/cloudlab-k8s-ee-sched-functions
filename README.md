@@ -4,7 +4,7 @@ Excerpt of the [µBench repository](https://github.com/mSvcBench/muBench/tree/ma
 
 ## Loader
 
-This *multi-thread* internal function sequentially load the CPU, the memory, the disk and then sleep for a bit. Finally, it returns a string whose length is a sample of an exp neg random variable with mean `mean_response_size` kBytes.
+This *multi-thread* internal function sequentially load the CPU, the memory and the disk. Finally, it returns a string whose length is a sample of an exp neg random variable with mean `mean_response_size` kBytes.
 
 The CPU stress is performed (if `run`=true) by running `thread_pool_size` parallel jobs. Each job computes `D` decimal points of pi, where `D` is a random integer in `range_complexity` (e.g. 50,100). The computation is repeated sequentially `trials` times per job.
 
