@@ -10,7 +10,7 @@ The CPU stress is performed by running `thread_pool_size` parallel jobs. Each jo
 
 The memory stress is performed by allocating `memory_size` kBytes. Then `memory_io` read/write operations of 1 byte are executed sequentially.
 
-The disk stress is performed by creating the file `tmp_file_name`. Writing `disk_write_block_count` blocks of  `disk_write_block_size` bytes. Finally, random accessing each of them once.
+The disk stress is performed by creating the file `tmp_file_name`. Writing `disk_write_block_count` blocks of  `disk_write_block_size` bytes. Finally, random accessing each of them once for read stress.
 
 
 *Function name*: `loader`
